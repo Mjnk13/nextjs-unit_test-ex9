@@ -36,6 +36,7 @@ export default function TodoItem({ todo, setTodos }: Props) {
                     name="completed"
                     onChange={handleChange}
                     className="min-w-[2rem] min-h-[2rem]"
+                    data-testid="todo-item-checkbox"
                 />
 
                 <button
